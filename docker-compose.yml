@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  telegram-bot:
+    build: .
+    container_name: qa-assistant-bot
+    # Pass the Telegram bot token from an .env file
+    environment:
+      - TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
+    restart: unless-stopped
