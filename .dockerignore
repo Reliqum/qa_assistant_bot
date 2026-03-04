@@ -1,0 +1,12 @@
+# Exclude files and directories that are not needed in the Docker image
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+env/
+venv/
+.git/
+.gitignore
+.env
+.env.*
