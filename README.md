@@ -23,7 +23,7 @@
 Склонировать репозиторий на локальную машину или развернуть на сервере:
 
 ```bash
-git clone https://github.com/yourusername/qa-assistant-bot.git
+git clone https://github.com/Reliqum/qa-assistant-bot.git
 cd qa-assistant-bot
 ```
 
